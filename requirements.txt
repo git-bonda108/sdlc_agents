@@ -1,0 +1,43 @@
+# === Core Framework ===
+streamlit>=1.31.0
+python-dotenv>=1.0.1
+
+# === True Agentic AI (Microsoft AutoGen) ===
+pyautogen>=0.2.0
+
+# === LLM Providers (Best Models) ===
+openai>=1.14.0        # GPT-4o, GPT-4o-mini
+anthropic>=0.8.0      # Claude-3 Opus for UAT
+
+# === Document Processing (DOCX/XLSX Upload) ===
+python-docx>=1.1.0
+openpyxl>=3.1.0
+
+# === Memory & Vector Storage (MCP + RAG) ===
+chromadb>=0.4.24
+faiss-cpu>=1.7.4
+
+# === Validation & Schemas ===
+pydantic>=2.7.1
+jsonschema>=4.19.0
+
+# === Test Script Generation ===
+pytest>=8.2.0
+pytest-asyncio>=0.23.6
+httpx>=0.27.0
+
+# === Logging & Utilities (FIXED) ===
+structlog>=24.1.0
+rich>=13.7.1
+pyyaml>=6.0.1
+
+# === Async Support ===
+aiofiles>=23.2.0
+aiohttp>=3.9.0
+
+# === Data Processing ===
+pandas>=2.0.0
+numpy>=1.24.0
+
+# === UI Enhancements ===
+plotly>=5.17.0        # For progress visualizations
