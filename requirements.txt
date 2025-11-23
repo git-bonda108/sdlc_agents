@@ -41,3 +41,4 @@ numpy>=1.24.0
 
 # === UI Enhancements ===
 plotly>=5.17.0        # For progress visualizations
+autogen
